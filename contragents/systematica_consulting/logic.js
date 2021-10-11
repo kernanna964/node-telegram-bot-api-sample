@@ -9,19 +9,18 @@ module.exports = (bot) => {
     const msg = callbackQuery.message;
     let text = 'Sorry, in progress...';
     let options
-
     switch(action) {
       case 'systematica_consulting':
         text = 'Выберите материалы Систематика Консалтинг';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'systematica_consulting.info' }],
-              [{ text: 'Logo', callback_data: 'systematica_consulting.logo' }],
-              [{ text: 'Blanks', callback_data: 'systematica_consulting.blanks' }],
-              [{ text: 'Profiles', callback_data: 'systematica_consulting.profiles' }],
-              [{ text: 'Presentations', callback_data: 'systematica_consulting.presentations' }],
-              [{ text: 'Materials', callback_data: 'systematica_consulting.materials' }],
+              [{ text: 'Информациионный блок', callback_data: 'systematica_consulting.info' }],
+              [{ text: 'Логотипы', callback_data: 'systematica_consulting.logo' }],
+              [{ text: 'Бланки', callback_data: 'systematica_consulting.blanks' }],
+              [{ text: 'Профайлы', callback_data: 'systematica_consulting.profiles' }],
+              [{ text: 'Презентации', callback_data: 'systematica_consulting.presentations' }],
+              [{ text: 'Материалы', callback_data: 'systematica_consulting.materials' }],
             ]
           })
         };
