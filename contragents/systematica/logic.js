@@ -15,11 +15,11 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'systematica.info' }],
-              [{ text: 'Logo', callback_data: 'systematica.logo' }],
-              [{ text: 'Blanks', callback_data: 'systematica.blanks' }],
-              [{ text: 'Profiles', callback_data: 'systematica.profiles' }],
-              [{ text: 'Presentations', callback_data: 'systematica.presentations' }],
+              [{ text: 'Информациионный блок', callback_data: 'systematica.info' }],
+              [{ text: 'Логотипы', callback_data: 'systematica.logo' }],
+              [{ text: 'Бланки', callback_data: 'systematica.blanks' }],
+              [{ text: 'Профайлы', callback_data: 'systematica.profiles' }],
+              [{ text: 'Презентации', callback_data: 'systematica.presentations' }],
             ]
           })
         };
