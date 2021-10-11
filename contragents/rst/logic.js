@@ -11,16 +11,16 @@ module.exports = (bot) => {
     let options
     switch(action) {
       case 'rst':
-        text = 'Выберите материалы RST';
+        text = 'Выберите материалы РСТ-Инвент';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'rst.info' }],
-              [{ text: 'Logo', callback_data: 'rst.logo' }],
-              [{ text: 'Blanks', callback_data: 'rst.blanks' }],
-              [{ text: 'Profiles', callback_data: 'rst.profiles' }],
-              [{ text: 'Presentations', callback_data: 'rst.presentations' }],
-              [{ text: 'Materials', callback_data: 'rst.materials' }],
+              [{ text: 'Информациионный блок', callback_data: 'rst.info' }],
+              [{ text: 'Логотипы', callback_data: 'rst.logo' }],
+              [{ text: 'Бланки', callback_data: 'rst.blanks' }],
+              [{ text: 'Профайлы', callback_data: 'rst.profiles' }],
+              [{ text: 'Презентации', callback_data: 'rst.presentations' }],
+              [{ text: 'Материалы', callback_data: 'rst.materials' }],
             ]
           })
         };
