@@ -48,7 +48,7 @@ bot.onText(/\/start/, function(msg) {
       one_time_keyboard: true,
     }),
   };
-  bot.sendMessage(msg.chat.id, 'Что хотели?', opts);
+  bot.sendMessage(msg.chat.id, 'Чем могу помочь?', opts);
 })
 
 bot.onText(/(\/menu|Menu|\/baza|Baza|gcs)/, function(msg) {
