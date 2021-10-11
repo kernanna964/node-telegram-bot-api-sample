@@ -15,12 +15,12 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'doverennay_sreda.info' }],
-              [{ text: 'Logo', callback_data: 'doverennay_sreda.logo' }],
-              [{ text: 'Blanks', callback_data: 'doverennay_sreda.blanks' }],
-              [{ text: 'Profiles', callback_data: 'doverennay_sreda.profiles' }],
-              [{ text: 'Presentations', callback_data: 'doverennay_sreda.presentations' }],
-              [{ text: 'Materials', callback_data: 'doverennay_sreda.materials' }],
+              [{ text: 'Информациионный блок', callback_data: 'doverennay_sreda.info' }],
+              [{ text: 'Логотипы', callback_data: 'doverennay_sreda.logo' }],
+              [{ text: 'Бланки', callback_data: 'doverennay_sreda.blanks' }],
+              [{ text: 'Профайлы', callback_data: 'doverennay_sreda.profiles' }],
+              [{ text: 'Презентации', callback_data: 'doverennay_sreda.presentations' }],
+              [{ text: 'Материалы', callback_data: 'doverennay_sreda.materials' }],
             ]
           })
         };
