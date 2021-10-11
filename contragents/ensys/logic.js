@@ -15,10 +15,10 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'ensys.info' }],
-              [{ text: 'Logo', callback_data: 'ensys.logo' }],
-              [{ text: 'Blanks', callback_data: 'ensys.blanks' }],
-              [{ text: 'Presentations', callback_data: 'ensys.presentations' }],
+              [{ text: 'Информациионный блок', callback_data: 'ensys.info' }],
+              [{ text: 'Логотипы', callback_data: 'ensys.logo' }],
+              [{ text: 'Бланки', callback_data: 'ensys.blanks' }],
+              [{ text: 'Презентации', callback_data: 'ensys.presentations' }],
             ]
           })
         };
