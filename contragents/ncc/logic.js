@@ -15,11 +15,11 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'ncc.info' }],
-              [{ text: 'Logo', callback_data: 'ncc.logo' }],
-              [{ text: 'Blanks', callback_data: 'ncc.blanks' }],
-              [{ text: 'Profiles', callback_data: 'ncc.profiles' }],
-              [{ text: 'Presentations', callback_data: 'ncc.presentations' }],
+              [{ text: 'Информациионный блок', callback_data: 'ncc.info' }],
+              [{ text: 'Логотипы', callback_data: 'ncc.logo' }],
+              [{ text: 'Бланки', callback_data: 'ncc.blanks' }],
+              [{ text: 'Профайлы', callback_data: 'ncc.profiles' }],
+              [{ text: 'Презентации', callback_data: 'ncc.presentations' }],
             ]
           })
         };
@@ -42,7 +42,7 @@ module.exports = (bot) => {
         text = data.ncc.profiles.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-      case 'ncc.presentations':
+		case 'ncc.presentations':
         text = 'Выберите презентации НКК';
         options = {
           reply_markup: JSON.stringify({
