@@ -12,16 +12,16 @@ module.exports = (bot) => {
     let options
     switch(action) {
       case 'haed_point':
-        text = 'Выберите материалы HaedPoint';
+        text = 'Выберите материалы HeadPoint';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'haed_point.info' }],
-              [{ text: 'Logo', callback_data: 'haed_point.logo' }],
-              [{ text: 'Blanks', callback_data: 'haed_point.blanks' }],
-              [{ text: 'Profiles', callback_data: 'haed_point.profiles' }],
-              [{ text: 'Presentations', callback_data: 'haed_point.presentations' }],
-              [{ text: 'Materials', callback_data: 'haed_point.materials' }],
+              [{ text: 'Информациионный блок', callback_data: 'haed_point.info' }],
+              [{ text: 'Логотипы', callback_data: 'haed_point.logo' }],
+              [{ text: 'Бланки', callback_data: 'haed_point.blanks' }],
+              [{ text: 'Профайлы', callback_data: 'haed_point.profiles' }],
+              [{ text: 'Презентации', callback_data: 'haed_point.presentations' }],
+              [{ text: 'Материалы', callback_data: 'haed_point.materials' }],
             ]
           })
         };
