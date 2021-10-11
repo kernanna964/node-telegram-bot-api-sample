@@ -11,13 +11,13 @@ module.exports = (bot) => {
     let options
     switch(action) {
       case 'lanmax':
-        text = 'Выберите материалы Tops BI';
+        text = 'Выберите материалы Lanmax';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'lanmax.info' }],
-              [{ text: 'Logo', callback_data: 'lanmax.logo' }],
-              [{ text: 'Profiles', callback_data: 'lanmax.presentations' }],
+              [{ text: 'Информациионный блок', callback_data: 'lanmax.info' }],
+              [{ text: 'Логотипы', callback_data: 'lanmax.logo' }],
+              [{ text: 'Профайлы', callback_data: 'lanmax.presentations' }],
             ]
           })
         };
