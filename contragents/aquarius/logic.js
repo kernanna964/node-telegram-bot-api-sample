@@ -15,11 +15,11 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'aquarius.info' }],
-              [{ text: 'Logo', callback_data: 'aquarius.logo' }],
-              [{ text: 'Profiles', callback_data: 'aquarius.profiles' }],
-              [{ text: 'Presentations', callback_data: 'aquarius.presentations' }],
-              [{ text: 'Materials', callback_data: 'aquarius.materials' }],
+              [{ text: 'Информациионный блок', callback_data: 'aquarius.info' }],
+              [{ text: 'Логотипы', callback_data: 'aquarius.logo' }],
+              [{ text: 'Профайлы', callback_data: 'aquarius.profiles' }],
+              [{ text: 'Презентации', callback_data: 'aquarius.presentations' }],
+              [{ text: 'Материалы', callback_data: 'aquarius.materials' }],
             ]
           })
         };
