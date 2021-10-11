@@ -15,11 +15,11 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Info', callback_data: 'national_platform.info' }],
-              [{ text: 'Logo', callback_data: 'national_platform.logo' }],
-              [{ text: 'Blanks', callback_data: 'national_platform.blanks' }],
-              [{ text: 'Profiles', callback_data: 'national_platform.profiles' }],
-              [{ text: 'Presentations', callback_data: 'national_platform.presentations' }],
+              [{ text: 'Информациионный блок', callback_data: 'national_platform.info' }],
+              [{ text: 'Логотипы', callback_data: 'national_platform.logo' }],
+              [{ text: 'Бланки', callback_data: 'national_platform.blanks' }],
+              [{ text: 'Профайлы', callback_data: 'national_platform.profiles' }],
+              [{ text: 'Презентации', callback_data: 'national_platform.presentations' }],
             ]
           })
         };
