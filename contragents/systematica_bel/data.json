@@ -1,13 +1,13 @@
 {
 	"systematica_bel": {
 		"logo": [
-			"[Rus.png](https://org013-disk.ncc-cloud.ru/s/WBYwdNiWtcZ8Py5)",
-			"[Eng.png](https://org013-disk.ncc-cloud.ru/s/rtX3nX6DS4cWZcA)",
-			"[Rus.pdf](https://org013-disk.ncc-cloud.ru/s/A59xoD69NMYnWCk)",
-			"[Eng.pdf](https://org013-disk.ncc-cloud.ru/s/MqL992bkxrLtMFH)"
+			"[Rus.png](https://org013-disk.oblako.gcs.ru/s/WBYwdNiWtcZ8Py5)",
+			"[Eng.png](https://org013-disk.oblako.gcs.ru/s/rtX3nX6DS4cWZcA)",
+			"[Rus.pdf](https://org013-disk.oblako.gcs.ru/s/A59xoD69NMYnWCk)",
+			"[Eng.pdf](https://org013-disk.oblako.gcs.ru/s/MqL992bkxrLtMFH)"
 		],
 		"blanks": [
-			"[Rus.doc](https://org013-disk.ncc-cloud.ru/s/oXK32SPS4ts7PBE)"
+			"[Rus.doc](https://org013-disk.oblako.gcs.ru/s/oXK32SPS4ts7PBE)"
 		]
 	}
 }
