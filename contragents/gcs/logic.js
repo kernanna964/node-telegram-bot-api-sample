@@ -168,6 +168,7 @@ module.exports = (bot) => {
               [{ text: 'Логотипы', callback_data: 'gcs.oblako.logo' }],
               [{ text: 'Бланки', callback_data: 'gcs.oblako.blanks' }],			  
               [{ text: 'Презентации', callback_data: 'gcs.oblako.presentations' }],
+              [{ text: 'Материалы', callback_data: 'gcs.oblako.materials' }],
             ]
           })
         };
@@ -187,6 +188,10 @@ module.exports = (bot) => {
         return		
       case 'gcs.oblako.presentations':
         text = data.gcs.oblako.presentations.sort(abSort).join('\n\n');
+        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
+        return
+      case 'gcs.oblako.materials':
+        text = data.gcs.oblako.materials.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
 
