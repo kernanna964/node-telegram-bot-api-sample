@@ -20,6 +20,7 @@ module.exports = (bot) => {
               [{ text: 'Бланки', callback_data: 'national_platform.blanks' }],
               [{ text: 'Профайлы', callback_data: 'national_platform.profiles' }],
               [{ text: 'Презентации', callback_data: 'national_platform.presentations' }],
+              [{ text: 'Материалы', callback_data: 'national_platform.materials' }],
             ]
           })
         };
@@ -46,7 +47,10 @@ module.exports = (bot) => {
         text = data.national_platform.presentations.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-
+      case 'national_platform.materials':
+        text = data.national_platform.materials.sort(abSort).join('\n\n');
+        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
+        return
       default:
         return
     }
