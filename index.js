@@ -28,6 +28,7 @@ const withSystematicaBelLogic = require('./contragents/systematica_bel/logic');
 const withNccLogic = require('./contragents/ncc/logic');
 const withAquariusLogic = require('./contragents/aquarius/logic');
 const withNationalPlatformLogic = require('./contragents/national_platform/logic');
+const withNccMeLogic = require('./contragents/national_platform/logic');
 const withTest = require('./contragents/test/logic')
 // Others...
 
@@ -62,6 +63,7 @@ bot.onText(/(\/menu|Menu|\/baza|Baza|gcs)/, function(msg) {
         [{ text: 'Доверенная среда', callback_data: 'doverennay_sreda' }, { text: 'Tops BI', callback_data: 'tops_bi' }],
         [{ text: 'Lanmax', callback_data: 'lanmax' }, { text: 'СистематикаБел', callback_data: 'systematica_bel' }],
         [{ text: 'НКК', callback_data: 'ncc' }, { text: 'AQUARIUS', callback_data: 'aquarius' }],
+        [{ text: 'NCC ME', callback_data: 'ncc_me' ],
         [{ text: 'РСТ-Инвент', callback_data: 'rst' }, { text: 'Национальная платформа', callback_data: 'national_platform' }],
       ],
     })
@@ -96,6 +98,7 @@ withTopsBILogic(bot)
 withLanmaxLogic(bot)
 withSystematicaBelLogic(bot)
 withNccLogic(bot)
+withNccMeLogic(bot)
 withAquariusLogic(bot)
 withNationalPlatformLogic(bot)
 withTest(bot)
