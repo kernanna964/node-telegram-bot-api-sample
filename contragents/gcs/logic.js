@@ -101,14 +101,14 @@ module.exports = (bot) => {
 
       // 2. DCSB
       case 'gcs.dcsb':
-        text = 'Выберите материалы';
+        text = 'Выберите материалы ДКСБ';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
               [{ text: 'Информационный блок', callback_data: 'gcs.dcsb.info' }],
               [{ text: 'Профайлы', callback_data: 'gcs.dcsb.profiles' }],
               [{ text: 'Презентации', callback_data: 'gcs.dcsb.presentations' }],
-              [{ text: 'Материлы', callback_data: 'gcs.dcsb.materials' }],
+              [{ text: 'Материалы', callback_data: 'gcs.dcsb.materials' }],
             ]
           })
         };
@@ -160,7 +160,7 @@ module.exports = (bot) => {
 		
 		 // 4. oblako
       case 'gcs.oblako':
-        text = 'Выберите материалы облако.ру';
+        text = 'Выберите материалы Облако.ру';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
