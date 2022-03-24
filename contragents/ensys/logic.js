@@ -18,7 +18,8 @@ module.exports = (bot) => {
               [{ text: 'Информационный блок', callback_data: 'ensys.info' }],
               [{ text: 'Логотипы', callback_data: 'ensys.logo' }],
               [{ text: 'Бланки', callback_data: 'ensys.blanks' }],
-              [{ text: 'Презентации', callback_data: 'ensys.presentations' }],
+              [{ text: 'Профайлы', callback_data: 'ensys.profiles' }],
+              [{ text: 'Презентации', callback_data: 'ensys.presentations' }],            
             ]
           })
         };
@@ -37,6 +38,10 @@ module.exports = (bot) => {
         text = data.ensys.blanks.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
+      case 'ensys.profiles':
+        text = data.ensys.profiles.sort(abSort).join('\n\n');
+        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
+        return        
       case 'ensys.presentations':
         text = data.ensys.presentations.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
