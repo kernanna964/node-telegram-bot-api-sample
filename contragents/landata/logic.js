@@ -15,7 +15,7 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Информациионный блок', callback_data: 'landata.info' }],
+              [{ text: 'Информационный блок', callback_data: 'landata.info' }],
               [{ text: 'Логотипы', callback_data: 'landata.logo' }],
               [{ text: 'Бланки', callback_data: 'landata.blanks' }],
               [{ text: 'Профайлы', callback_data: 'landata.profiles' }],
