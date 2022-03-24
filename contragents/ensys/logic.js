@@ -11,11 +11,11 @@ module.exports = (bot) => {
     let options
     switch(action) {
       case 'ensys':
-        text = 'Выберите материалы';
+        text = 'Выберите материалы Энсис';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Информациионный блок', callback_data: 'ensys.info' }],
+              [{ text: 'Информационный блок', callback_data: 'ensys.info' }],
               [{ text: 'Логотипы', callback_data: 'ensys.logo' }],
               [{ text: 'Бланки', callback_data: 'ensys.blanks' }],
               [{ text: 'Презентации', callback_data: 'ensys.presentations' }],
