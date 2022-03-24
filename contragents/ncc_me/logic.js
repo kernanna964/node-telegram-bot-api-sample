@@ -10,55 +10,40 @@ module.exports = (bot) => {
     let text = 'Sorry, in progress...';
     let options
     switch(action) {
-      case 'ncc':
-        text = 'Выберите материалы НКК';
+      case 'ncc_me':
+        text = 'Выберите материалы NCC ME';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Информациионный блок', callback_data: 'ncc.info' }],
-              [{ text: 'Логотипы', callback_data: 'ncc.logo' }],
-              [{ text: 'Бланки', callback_data: 'ncc.blanks' }],
-              [{ text: 'Профайлы', callback_data: 'ncc.profiles' }],
-              [{ text: 'Презентации', callback_data: 'ncc.presentations' }],
+              [{ text: 'Информациионный блок', callback_data: 'ncc_me.info' }],
+              [{ text: 'Логотипы', callback_data: 'ncc_me.logo' }],
+              [{ text: 'Бланки', callback_data: 'ncc_me.blanks' }],
+              [{ text: 'Профайлы', callback_data: 'ncc_me.profiles' }],
+              [{ text: 'Презентации', callback_data: 'ncc_me.presentations' }],
             ]
           })
         };
         bot.sendMessage(msg.chat.id, text, options);
         return
 
-      case 'ncc.info':
-        text = data.ncc.info.sort(abSort).join('\n\n');
+      case 'ncc_me.info':
+        text = data.ncc_me.info.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-      case 'ncc.logo':
-        text = data.ncc.logo.sort(abSort).join('\n\n');
+      case 'ncc_me.logo':
+        text = data.ncc_me.logo.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-      case 'ncc.blanks':
-        text = data.ncc.blanks.sort(abSort).join('\n\n');
+      case 'ncc_me.blanks':
+        text = data.ncc_me.blanks.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-      case 'ncc.profiles':
-        text = data.ncc.profiles.sort(abSort).join('\n\n');
+      case 'ncc_me.profiles':
+        text = data.ncc_me.profiles.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-		case 'ncc.presentations':
-        text = 'Выберите презентации НКК';
-        options = {
-          reply_markup: JSON.stringify({
-            inline_keyboard: [
-              [{ text: 'Общие', callback_data: 'ncc.presentations.general' }, { text: 'Отраслевые', callback_data: 'ncc.presentations.industry' }],
-            ]
-          })
-        };
-        bot.sendMessage(msg.chat.id, text, options);
-        return
-      case 'ncc.presentations.general':
-        text = data.ncc.presentations.general.sort(abSort).join('\n\n');
-        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
-        return
-      case 'ncc.presentations.industry':
-        text = data.ncc.presentations.industry.sort(abSort).join('\n\n');
+		case 'ncc_me.presentations':
+        text = data.ncc_me.presentations.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
 
