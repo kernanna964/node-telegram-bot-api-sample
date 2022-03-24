@@ -28,7 +28,7 @@ const withSystematicaBelLogic = require('./contragents/systematica_bel/logic');
 const withNccLogic = require('./contragents/ncc/logic');
 const withAquariusLogic = require('./contragents/aquarius/logic');
 const withNationalPlatformLogic = require('./contragents/national_platform/logic');
-const withNccMeLogic = require('./contragents/national_platform/logic');
+const withNccMeLogic = require('./contragents/ncc_me/logic');
 const withTest = require('./contragents/test/logic')
 // Others...
 
