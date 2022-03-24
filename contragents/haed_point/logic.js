@@ -16,7 +16,7 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Информациионный блок', callback_data: 'haed_point.info' }],
+              [{ text: 'Информационный блок', callback_data: 'haed_point.info' }],
               [{ text: 'Логотипы', callback_data: 'haed_point.logo' }],
               [{ text: 'Бланки', callback_data: 'haed_point.blanks' }],
               [{ text: 'Профайлы', callback_data: 'haed_point.profiles' }],
