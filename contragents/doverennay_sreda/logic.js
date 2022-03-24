@@ -15,7 +15,7 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Информациионный блок', callback_data: 'doverennay_sreda.info' }],
+              [{ text: 'Информационный блок', callback_data: 'doverennay_sreda.info' }],
               [{ text: 'Логотипы', callback_data: 'doverennay_sreda.logo' }],
               [{ text: 'Бланки', callback_data: 'doverennay_sreda.blanks' }],
               [{ text: 'Профайлы', callback_data: 'doverennay_sreda.profiles' }],
