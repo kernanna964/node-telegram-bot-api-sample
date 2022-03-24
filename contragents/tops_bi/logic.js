@@ -19,7 +19,7 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Информациионный блок', callback_data: 'tops_bi.info' }],
+              [{ text: 'Информационный блок', callback_data: 'tops_bi.info' }],
               [{ text: 'Логотипы', callback_data: 'tops_bi.logo' }],
               [{ text: 'Бланки', callback_data: 'tops_bi.blanks' }],
             ]
