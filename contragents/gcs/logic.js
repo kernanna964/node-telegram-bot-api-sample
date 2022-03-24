@@ -101,7 +101,7 @@ module.exports = (bot) => {
 
       // 2. DCSB
       case 'gcs.dcsb':
-        text = 'Выберите материалы ДКСБ';
+        text = 'Выберите материалы Комплексная безопасность';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
