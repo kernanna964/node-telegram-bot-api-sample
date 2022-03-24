@@ -15,7 +15,7 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Информациионный блок', callback_data: 'ncc_me.info' }],
+              [{ text: 'Информационный блок', callback_data: 'ncc_me.info' }],
               [{ text: 'Логотипы', callback_data: 'ncc_me.logo' }],
               [{ text: 'Бланки', callback_data: 'ncc_me.blanks' }],
               [{ text: 'Профайлы', callback_data: 'ncc_me.profiles' }],
