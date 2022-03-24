@@ -32,7 +32,7 @@ module.exports = (bot) => {
           reply_markup: JSON.stringify({
             inline_keyboard: [
               [
-                { text: 'Информациионный блок', callback_data: 'gcs.main.info' },
+                { text: 'Информационный блок', callback_data: 'gcs.main.info' },
                 { text: 'Логотипы', callback_data: 'gcs.main.logo' }
               ],
               [{ text: 'Бланки', callback_data: 'gcs.main.blanks' }],
