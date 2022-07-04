@@ -18,7 +18,8 @@ module.exports = (bot) => {
               [{ text: 'ГКС', callback_data: 'gcs.main' }],
               [{ text: 'Комплексная безопасность', callback_data: 'gcs.dcsb' }],
               [{ text: 'Цифровизация промышленных предприятий', callback_data: 'gcs.pp' }],
-			  [{ text: 'Облако.ру', callback_data: 'gcs.oblako' }]
+              [{ text: 'PLM-технологии', callback_data: 'gcs.plm' }],
+	 [{ text: 'Облако.ру', callback_data: 'gcs.oblako' }]
             ]
           })
         };
@@ -157,8 +158,35 @@ module.exports = (bot) => {
         text = data.gcs.pp.materials.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
+
+   // 4. PLM
+      case 'gcs.plm':
+        text = 'Выберите материалы PLM';
+        options = {
+          reply_markup: JSON.stringify({
+            inline_keyboard: [
+              [{ text: 'Информационный блок', callback_data: 'gcs.plm.info' }],
+              [{ text: 'Презентации', callback_data: 'gcs.plm.presentations' }],
+              [{ text: 'Материалы', callback_data: 'gcs.plm.materials' }],
+            ]
+          })
+        };
+        bot.sendMessage(msg.chat.id, text, options);
+        return
+      case 'gcs.plm.info':
+        text = data.gcs.plm.info.sort(abSort).join('\n\n');
+        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
+        return
+      case 'gcs.plm.presentations':
+        text = data.gcs.plm.presentations.sort(abSort).join('\n\n');
+        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
+        return
+      case 'gcs.plm.materials':
+        text = data.gcs.plm.materials.sort(abSort).join('\n\n');
+        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
+        return
 		
-		 // 4. oblako
+		 // 5. oblako
       case 'gcs.oblako':
         text = 'Выберите материалы Облако.ру';
         options = {
