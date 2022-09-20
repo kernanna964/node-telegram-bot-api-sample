@@ -19,12 +19,23 @@
     "profiles": [
       "[Профайл_rus.doc](https://org013-disk.oblako.gcs.ru/s/EgamAF92Bqg9QSL)"
     ],
-    "presentations": [
-      "[Общая_rus.pdf](https://org013-disk.oblako.gcs.ru/s/dDsqn3oFtPYzFed)",
-      "[General_eng.pdf](https://org013-disk.oblako.gcs.ru/s/FRkyQokJJqDEMRS)",
-      "[Catalog.pdf](https://org013-disk.oblako.gcs.ru/s/jYNJ87QX74fKPRo)",
-      "[RFID-решение для учета ОС.pdf](https://org013-disk.oblako.gcs.ru/s/9zqJgt6GHdwg3LQ)"
-    ],  
+    "presentations": {
+        "general": [
+           "[Общая_rus.pdf](https://org013-disk.oblako.gcs.ru/s/dDsqn3oFtPYzFed)",
+           "[General_eng.pdf](https://org013-disk.oblako.gcs.ru/s/FRkyQokJJqDEMRS)",
+           "[Catalog.pdf](https://org013-disk.oblako.gcs.ru/s/jYNJ87QX74fKPRo)",
+         ],
+         "industry": [
+          "[RFID-решение для учета ОС.pdf](https://org013-disk.oblako.gcs.ru/s/9zqJgt6GHdwg3LQ)",
+          "[RFID для банковской сферы.pdf](https://org013-disk.oblako.gcs.ru/s/GnrSrfyC3rBFBYz)",    
+          "[RFID учет серверного имущества.pdf](https://org013-disk.oblako.gcs.ru/s/tjpoSZ8rrHpGRFn)",
+          "[RFID для фармацевтических компаний.pdf](https://org013-disk.oblako.gcs.ru/s/FZLP8iYmKcAC5GJ)",
+          "[RFID-автоматизация.pdf](https://org013-disk.oblako.gcs.ru/s/Wq8kQbqtMTjKCkf)",
+          "[RFID-решение для библиотек и архивов.pdf](https://org013-disk.oblako.gcs.ru/s/CZiaC8BcenBpt9L)",
+          "[Умный гарнизон.pdf](https://org013-disk.oblako.gcs.ru/s/7FWr9PHnSRNDbkf)",
+          "[RFID для медицины на примере госпиталя в Крылатском.pdf](https://org013-disk.oblako.gcs.ru/s/oxoFqT8ctXozcdJ)"
+         ]
+      },
     "materials": [  
       "[Ролик](https://www.youtube.com/watch?v=0l5u-zBpWvA)"
     ]
