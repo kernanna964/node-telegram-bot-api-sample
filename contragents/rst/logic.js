@@ -43,12 +43,13 @@ module.exports = (bot) => {
         text = data.rst.profiles.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-            case 'rst.presentations':
-        text = 'Выберите презентации РСТ-Инвент';
+        case 'rst.presentations':
+        text = 'Выберите презентации';
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Общие', callback_data: 'rst.presentations.general' }, { text: 'Отраслевые', callback_data: 'rst.presentations.industry' }],
+              [{ text: 'Общие', callback_data: 'rst.presentations.general' }],
+              [{ text: 'Отраслевые', callback_data: 'rst.presentations.industry' }],
             ]
           })
         };
@@ -62,6 +63,7 @@ module.exports = (bot) => {
         text = data.rst.presentations.industry.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
+
       case 'rst.materials':
         text = data.rst.materials.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
