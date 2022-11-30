@@ -52,7 +52,7 @@ bot.onText(/\/start/, function(msg) {
   bot.sendMessage(msg.chat.id, 'Чем могу помочь?', opts);
 })
 
-bot.onText(/(\/menu|Menu|\/baza|Baza|gcs)/, function(msg) {
+bot.onText(/(\/menu|Menu|menu|\/baza|Baza|gcs)/, function(msg) {
   const options = {
     reply_markup: JSON.stringify({
       inline_keyboard: [
