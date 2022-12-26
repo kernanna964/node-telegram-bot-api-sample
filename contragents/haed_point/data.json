@@ -16,9 +16,17 @@
     "profiles": [
       "[Профайл_rus.doc](https://org013-disk.oblako.gcs.ru/s/sFNkrKwTpWyiKZm)"
     ],
-    "presentations": [
-      "[Общая.pptx](https://org013-disk.oblako.gcs.ru/s/yQ6jikdeXcRi8KQ)"
-    ],
+    "presentations": {
+        "general": [
+          "[HeadPoint_рынок_о компании_2023.pptx](https://org013-disk.oblako.gcs.ru/s/EGjc7EWMiJcSzGX)",
+          "[HeadPoint_InOne_2.0_2023.pptx](https://org013-disk.oblako.gcs.ru/s/m5tEjp9s2pPWD7r)"
+         ],
+         "industry": [
+          "[HeadPoint_InOne_кейс Пятёрочка.pptx](https://org013-disk.oblako.gcs.ru/s/dfLrizNnzGzkfMw)",
+          "[HeadPoint_InOne для ритейла_2023.pptx](https://org013-disk.oblako.gcs.ru/s/rxc3aZxzNpTLi5y)",    
+          "[HeadPoint_InOne для ритейла_2023_с анимацией.pptx](https://org013-disk.oblako.gcs.ru/s/ajBS7r5PcYr5dF6)"
+         ]
+      },
     "materials": [
       "[Буклет](https://org013-disk.oblako.gcs.ru/s/biYCWqbTZzYE2rw)",
       "[СКУХО](https://org013-disk.oblako.gcs.ru/s/zxTjJYnXrQwKRFW)",
