@@ -44,8 +44,24 @@ module.exports = (bot) => {
         text = data.haed_point.profiles.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-      case 'haed_point.presentations':
-        text = data.haed_point.presentations.sort(abSort).join('\n\n');
+              case 'haed_point.presentations':
+        text = 'Выберите презентации';
+        options = {
+          reply_markup: JSON.stringify({
+            inline_keyboard: [
+              [{ text: 'Общие', callback_data: 'haed_point.presentations.general' }],
+              [{ text: 'Отраслевые', callback_data: 'haed_point.presentations.industry' }],
+            ]
+          })
+        };
+        bot.sendMessage(msg.chat.id, text, options);
+        return
+      case 'haed_point.presentations.general':
+        text = data.haed_point.presentations.general.sort(abSort).join('\n\n');
+        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
+        return
+      case 'haed_point.presentations.industry':
+        text = data.haed_point.presentations.industry.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
       case 'haed_point.materials':
