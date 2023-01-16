@@ -56,7 +56,7 @@ bot.onText(/(\/menu|Menu|menu|\/baza|Baza|gcs)/, function(msg) {
   const options = {
     reply_markup: JSON.stringify({
       inline_keyboard: [
-        [{ text: 'ГКС', callback_data: 'gcs' }, { text: 'NCC ME', callback_data: 'ncc_me' }],
+        [{ text: 'ГКС', callback_data: 'gcs' }, { text: 'НЭП', callback_data: 'ncc_me' }],
         [{ text: 'Систематика', callback_data: 'systematica' }, { text: 'STEP LOGIC', callback_data: 'step_logic' }],
         [{ text: 'HeadPoint', callback_data: 'haed_point' }, { text: 'Landata', callback_data: 'landata' }],
         [{ text: 'Энсис Технологии', callback_data: 'ensys' }, { text: 'Систематика Консалтинг', callback_data: 'systematica_consulting' }],
