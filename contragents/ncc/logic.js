@@ -42,25 +42,11 @@ module.exports = (bot) => {
         text = data.ncc.profiles.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-		case 'ncc.presentations':
-        text = 'Выберите презентации НКК';
-        options = {
-          reply_markup: JSON.stringify({
-            inline_keyboard: [
-              [{ text: 'Общие', callback_data: 'ncc.presentations.general' }, { text: 'Отраслевые', callback_data: 'ncc.presentations.industry' }],
-            ]
-          })
-        };
-        bot.sendMessage(msg.chat.id, text, options);
-        return
-      case 'ncc.presentations.general':
-        text = data.ncc.presentations.general.sort(abSort).join('\n\n');
+	      case 'ncc.presentations':
+        text = data.ncc.presentations.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-      case 'ncc.presentations.industry':
-        text = data.ncc.presentations.industry.sort(abSort).join('\n\n');
-        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
-        return
+	
 
       default:
         return
