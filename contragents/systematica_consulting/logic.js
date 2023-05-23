@@ -43,24 +43,8 @@ module.exports = (bot) => {
         text = data.systematica_consulting.profiles.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
-      case 'systematica_consulting.presentations':
-        text = 'Выберите презентации';
-        options = {
-          reply_markup: JSON.stringify({
-            inline_keyboard: [
-              [{ text: 'General', callback_data: 'systematica_consulting.presentations.general' }],
-              [{ text: 'Industry', callback_data: 'systematica_consulting.presentations.industry' }],
-            ]
-          })
-        };
-        bot.sendMessage(msg.chat.id, text, options);
-        return
-      case 'systematica_consulting.presentations.general':
-        text = data.systematica_consulting.presentations.general.sort(abSort).join('\n\n');
-        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
-        return
-      case 'systematica_consulting.presentations.industry':
-        text = data.systematica_consulting.presentations.industry.sort(abSort).join('\n\n');
+case 'systematica_consulting.presentations':
+        text = data.systematica_consulting.presentations.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
 
