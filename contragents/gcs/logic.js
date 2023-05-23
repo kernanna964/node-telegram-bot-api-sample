@@ -65,22 +65,7 @@ module.exports = (bot) => {
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
       case 'gcs.main.presentations':
-        text = 'Выберите презентации ГКС';
-        options = {
-          reply_markup: JSON.stringify({
-            inline_keyboard: [
-              [{ text: 'Общие', callback_data: 'gcs.main.presentations.general' }, { text: 'Отраслевые', callback_data: 'gcs.main.presentations.industry' }],
-            ]
-          })
-        };
-        bot.sendMessage(msg.chat.id, text, options);
-        return
-      case 'gcs.main.presentations.general':
-        text = data.gcs.main.presentations.general.sort(abSort).join('\n\n');
-        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
-        return
-      case 'gcs.main.presentations.industry':
-        text = data.gcs.main.presentations.industry.sort(abSort).join('\n\n');
+        text = data.gcs.main.presentations.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
       case 'gcs.main.buklets':
