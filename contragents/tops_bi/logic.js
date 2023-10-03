@@ -22,6 +22,7 @@ module.exports = (bot) => {
               [{ text: 'Информационный блок', callback_data: 'tops_bi.info' }],
               [{ text: 'Логотипы', callback_data: 'tops_bi.logo' }],
               [{ text: 'Бланки', callback_data: 'tops_bi.blanks' }],
+              [{ text: 'Презентации', callback_data: 'tops_bi.presentations' }],
               [{ text: 'Профайлы', callback_data: 'tops_bi.profiles' }],
             ]
           })
@@ -39,6 +40,10 @@ module.exports = (bot) => {
         return
       case 'tops_bi.blanks':
         text = data.tops_bi.blanks.sort(abSort).join('\n\n');
+        bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
+        return
+      case 'tops_bi.presentations':
+        text = data.tops_bi.presentations.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
         return
       case 'tops_bi.profiles':
