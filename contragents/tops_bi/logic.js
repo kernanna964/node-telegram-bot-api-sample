@@ -23,6 +23,7 @@ module.exports = (bot) => {
               [{ text: 'Логотипы', callback_data: 'tops_bi.logo' }],
               [{ text: 'Бланки', callback_data: 'tops_bi.blanks' }],
               [{ text: 'Профайлы', callback_data: 'tops_bi.profiles' }],
+              [{ text: 'Презентации', callback_data: 'tops_bi.presentations' }],
             ]
           })
         };
