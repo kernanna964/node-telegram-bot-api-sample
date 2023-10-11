@@ -55,15 +55,15 @@ bot.onText(/\/start/, function(msg) {
 bot.onText(/(\/menu|Menu|menu|\/baza|Baza|gcs)/, function(msg) {
   const options = {
     reply_markup: JSON.stringify({
-      inline_keyboard: [
-        [{ text: 'ГКС', callback_data: 'gcs' },{ text: 'НКК', callback_data: 'ncc' }],
-        [{ text: 'Систематика', callback_data: 'systematica' }, { text: 'STEP LOGIC', callback_data: 'step_logic' }],
+   inline_keyboard: [
+        [{ text: 'НКК', callback_data: 'ncc' }],
+        [{ text: 'ГКС', callback_data: 'gcs' }, { text: 'Систематика', callback_data: 'systematica' }],
         [{ text: 'HeadPoint', callback_data: 'haed_point' }, { text: 'Landata', callback_data: 'landata' }],
         [{ text: 'Энсис Технологии', callback_data: 'ensys' }, { text: 'Систематика Консалтинг', callback_data: 'systematica_consulting' }],
         [{ text: 'Доверенная среда', callback_data: 'doverennay_sreda' }, { text: 'Tops BI', callback_data: 'tops_bi' }],
-        [{ text: 'Lanmax', callback_data: 'lanmax' }, { text: 'СистематикаБел', callback_data: 'systematica_bel' }],
-        [{ text: 'РСТ-Инвент', callback_data: 'rst' }, { text: 'Национальная платформа', callback_data: 'national_platform' }],        
-       // [{ text: 'НЭП', callback_data: 'nap' }]
+        [{ text: 'Lanmax', callback_data: 'lanmax' }, , { text: 'STEP LOGIC', callback_data: 'step_logic' }],
+        [{ text: 'РСТ-Инвент', callback_data: 'rst' }, { text: 'Национальная платформа', callback_data: 'national_platform' }]        
+       // [{ text: 'НЭП', callback_data: 'nap' }, { text: 'СистематикаБел', callback_data: 'systematica_bel' }]
       ],
     })
   };
