@@ -18,8 +18,7 @@ module.exports = (bot) => {
               [{ text: 'Информационный блок', callback_data: 'ensys.info' }],
               [{ text: 'Логотипы', callback_data: 'ensys.logo' }],
               [{ text: 'Бланки', callback_data: 'ensys.blanks' }],
-              [{ text: 'Профайлы', callback_data: 'ensys.profiles' }],
-              [{ text: 'Презентации', callback_data: 'ensys.presentations' }],            
+              [{ text: 'Профайлы', callback_data: 'ensys.profiles' }],            
             ]
           })
         };
