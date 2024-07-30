@@ -18,7 +18,7 @@ module.exports = (bot) => {
               [{ text: 'Информационный блок', callback_data: 'lanmax.info' }],
               [{ text: 'Логотипы', callback_data: 'lanmax.logo' }],
               [{ text: 'Бланки', callback_data: 'lanmax.blanks' }],
-              [{ text: 'Профайлы', callback_data: 'lanmax.presentations' }],
+              [{ text: 'Презентации', callback_data: 'lanmax.presentations' }],
             ]
           })
         };
