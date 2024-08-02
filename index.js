@@ -61,7 +61,7 @@ bot.onText(/(\/menu|Menu|menu|\/baza|Baza|gcs)/, function(msg) {
         [{ text: 'HeadPoint', callback_data: 'haed_point' }, { text: 'Landata', callback_data: 'landata' }],
         [{ text: 'Энсис Технологии', callback_data: 'ensys' }, { text: 'Систематика Консалтинг', callback_data: 'systematica_consulting' }],
         [{ text: 'Доверенная среда', callback_data: 'doverennay_sreda' }, { text: 'Tops BI', callback_data: 'tops_bi' }],
-        [{ text: 'Собственные продукты', callback_data: 'lanmax' }, { text: 'STEP LOGIC', callback_data: 'step_logic' }],
+        [{ text: 'Продукты и компетенции', callback_data: 'lanmax' }, { text: 'STEP LOGIC', callback_data: 'step_logic' }],
         [{ text: 'РСТ-Инвент', callback_data: 'rst' }, { text: 'Национальная платформа', callback_data: 'national_platform' }],        
        // [{ text: 'НЭП', callback_data: 'nap' }, { text: 'СистематикаБел', callback_data: 'systematica_bel' }]
       ],
