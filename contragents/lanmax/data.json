@@ -1,30 +1,17 @@
 {
-	"lanmax": {
-		"info": [
-      "[Сайт: lanmax.org](http://www.lanmax.org/)",
-      "[Тел.:+7(495)925-76-20](tel:+74959257620)",
-      "E-mail: lanmax@lanmax.org",
-      "*Социальные сети*:\n\n*Вопросы: Коркунова Анна*\n[Тел.:+7(495)925-76-20 (доб. 4306)](tel:+74959257620)\nE-mail: akorkunova@landata.ru"
-    ],
-		"logo": [
-			"[Lanmax_логотип.png](https://org013-disk.oblako.gcs.ru/s/bMgf8imJ4S5QxLR)",
-			"[Lanmax_логотип_вектор.pdf](https://org013-disk.oblako.gcs.ru/s/kQc4rZFLWFMTYoH)"
-		],
-		"blanks": [
-			"[Lanmax_blank_07_23.pdf](https://org013-disk.oblako.gcs.ru/s/8sA8KzpdXtRccfp)"
-		],
-		"presentations": [
-			"[Доверенная среда_TRIAFLY_Презентация (RU)_07_23.pdf](https://org013-disk.oblako.gcs.ru/s/fX6HWbWStmowiC7)",
-			"[Национальная платформа_ERP-платформа «Ма-3»_07_23.pdf](https://org013-disk.oblako.gcs.ru/s/LWkqHm4ectM6aC5)",
-			"[РСТ-Инвент_07_23.pdf](https://org013-disk.oblako.gcs.ru/s/oqK8CCioF5jQxtK)",
-			"[НКК (ITSM ProcessMining Monitoring) Что мы можем сделать для ваших бизнес-процессов_07_2024](https://org013-disk.oblako.gcs.ru/s/gej84EC2KG3bgPM)",
-			"[НКК Автоматизация ITSM И ESM процессов_07_2024](https://org013-disk.oblako.gcs.ru/s/op78nK8MKq8HEG2)",
-			"[НКК Optimining с анимацией_07_2024](https://org013-disk.oblako.gcs.ru/s/Krd5mAgkQWXN6N4)",
-			"[НКК Optimining_07_2024](https://org013-disk.oblako.gcs.ru/s/pkytHQHoayaPxqq)",
-			"[НКК_Антидрон_РТК_07_2024](https://org013-disk.oblako.gcs.ru/s/SF3pRFjwzAwp7ga)",
-			"[НКК_ДКСБ_комплексная безопасность_07_2024_new шаблон](https://org013-disk.oblako.gcs.ru/s/fjbxQDeC9gZzJ6p)",
-			"[НКК_модуль serviceBus_08_2024](https://org013-disk.oblako.gcs.ru/s/6KPtYaSDkxtnd4F)",
-			"[НКК_НСИ_08_2024](https://org013-disk.oblako.gcs.ru/s/M34XfrKp8MLHkwg)"
-		]
-	}
+    "lanmax": {
+        "presentations": [
+            "[Доверенная среда_TRIAFLY_Презентация (RU)_07_23.pdf](https://org013-disk.oblako.gcs.ru/s/fX6HWbWStmowiC7)",
+            "[Национальная платформа_ERP-платформа «Ма-3»_07_23.pdf](https://org013-disk.oblako.gcs.ru/s/LWkqHm4ectM6aC5)",
+            "[РСТ-Инвент_07_23.pdf](https://org013-disk.oblako.gcs.ru/s/oqK8CCioF5jQxtK)",
+            "[НКК (ITSM ProcessMining Monitoring) Что мы можем сделать для ваших бизнес-процессов_07_2024](https://org013-disk.oblako.gcs.ru/s/gej84EC2KG3bgPM)",
+            "[НКК Автоматизация ITSM И ESM процессов_07_2024](https://org013-disk.oblako.gcs.ru/s/op78nK8MKq8HEG2)",
+            "[НКК Optimining с анимацией_07_2024](https://org013-disk.oblako.gcs.ru/s/Krd5mAgkQWXN6N4)",
+            "[НКК Optimining_07_2024](https://org013-disk.oblako.gcs.ru/s/pkytHQHoayaPxqq)",
+            "[НКК_Антидрон_РТК_07_2024](https://org013-disk.oblako.gcs.ru/s/SF3pRFjwzAwp7ga)",
+            "[НКК_ДКСБ_комплексная безопасность_07_2024_new шаблон](https://org013-disk.oblako.gcs.ru/s/fjbxQDeC9gZzJ6p)",
+            "[НКК_модуль serviceBus_08_2024](https://org013-disk.oblako.gcs.ru/s/6KPtYaSDkxtnd4F)",
+            "[НКК_НСИ_08_2024](https://org013-disk.oblako.gcs.ru/s/M34XfrKp8MLHkwg)"
+        ]
+    }
 }
