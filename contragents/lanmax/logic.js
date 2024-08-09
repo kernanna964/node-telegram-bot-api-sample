@@ -15,9 +15,6 @@ module.exports = (bot) => {
         options = {
           reply_markup: JSON.stringify({
             inline_keyboard: [
-              [{ text: 'Информационный блок', callback_data: 'lanmax.info' }],
-              [{ text: 'Логотипы', callback_data: 'lanmax.logo' }],
-              [{ text: 'Бланки', callback_data: 'lanmax.blanks' }],
               [{ text: 'Презентации', callback_data: 'lanmax.presentations' }],
             ]
           })
