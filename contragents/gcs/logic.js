@@ -86,20 +86,7 @@ module.exports = (bot) => {
         return
 
       // 2. DCSB
-      case 'gcs.dcsb':
-        text = 'Выберите материалы Комплексная безопасность';
-        options = {
-          reply_markup: JSON.stringify({
-            inline_keyboard: [
-              [{ text: 'Информационный блок', callback_data: 'gcs.dcsb.info' }],
-              [{ text: 'Профайлы', callback_data: 'gcs.dcsb.profiles' }],
-              [{ text: 'Презентации', callback_data: 'gcs.dcsb.presentations' }],
-              [{ text: 'Материалы', callback_data: 'gcs.dcsb.materials' }],
-            ]
-          })
-        };
-        bot.sendMessage(msg.chat.id, text, options);
-        return
+      
       case 'gcs.dcsb.info':
         text = data.gcs.dcsb.info.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
@@ -118,19 +105,7 @@ module.exports = (bot) => {
         return
 
       // 3. PP
-      case 'gcs.pp':
-        text = 'Выберите материалы ПП';
-        options = {
-          reply_markup: JSON.stringify({
-            inline_keyboard: [
-              [{ text: 'Информационный блок', callback_data: 'gcs.pp.info' }],
-              [{ text: 'Презентации', callback_data: 'gcs.pp.presentations' }],
-              [{ text: 'Материалы', callback_data: 'gcs.pp.materials' }],
-            ]
-          })
-        };
-        bot.sendMessage(msg.chat.id, text, options);
-        return
+      
       case 'gcs.pp.info':
         text = data.gcs.pp.info.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
@@ -145,19 +120,7 @@ module.exports = (bot) => {
         return
 
    // 4. PLM
-      case 'gcs.plm':
-        text = 'Выберите материалы PLM';
-        options = {
-          reply_markup: JSON.stringify({
-            inline_keyboard: [
-              [{ text: 'Информационный блок', callback_data: 'gcs.plm.info' }],
-              [{ text: 'Презентации', callback_data: 'gcs.plm.presentations' }],
-              [{ text: 'Материалы', callback_data: 'gcs.plm.materials' }],
-            ]
-          })
-        };
-        bot.sendMessage(msg.chat.id, text, options);
-        return
+      
       case 'gcs.plm.info':
         text = data.gcs.plm.info.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
@@ -172,21 +135,7 @@ module.exports = (bot) => {
         return
 		
 		 // 5. oblako
-      case 'gcs.oblako':
-        text = 'Выберите материалы Облако.ру';
-        options = {
-          reply_markup: JSON.stringify({
-            inline_keyboard: [
-              [{ text: 'Информационный блок', callback_data: 'gcs.oblako.info' }],
-              [{ text: 'Логотипы', callback_data: 'gcs.oblako.logo' }],
-              [{ text: 'Бланки', callback_data: 'gcs.oblako.blanks' }],			  
-              [{ text: 'Презентации', callback_data: 'gcs.oblako.presentations' }],
-              [{ text: 'Материалы', callback_data: 'gcs.oblako.materials' }],
-            ]
-          })
-        };
-        bot.sendMessage(msg.chat.id, text, options);
-        return
+      
       case 'gcs.oblako.info':
         text = data.gcs.oblako.info.sort(abSort).join('\n\n');
         bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
