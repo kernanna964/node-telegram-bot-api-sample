@@ -16,9 +16,9 @@ module.exports = (bot) => {
           reply_markup: JSON.stringify({
             inline_keyboard: [
               [{ text: 'ГКС', callback_data: 'gcs.main' }],
-              [{ text: 'Комплексная безопасность', callback_data: 'gcs.dcsb' }],
-              [{ text: 'Цифровизация предприятий', callback_data: 'gcs.pp' }],
-              [{ text: 'PLM-технологии', callback_data: 'gcs.plm' }],
+              //[{ text: 'Комплексная безопасность', callback_data: 'gcs.dcsb' }],
+              //[{ text: 'Цифровизация предприятий', callback_data: 'gcs.pp' }],
+              //[{ text: 'PLM-технологии', callback_data: 'gcs.plm' }],
 	 [{ text: 'Облако.ру', callback_data: 'gcs.oblako' }]
             ]
           })
