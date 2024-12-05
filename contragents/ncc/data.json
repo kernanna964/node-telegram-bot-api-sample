@@ -1,14 +1,14 @@
 {
   "ncc": {
     "info": [
-      "[НКК_BOOKLET_DKSB_2024_24.06_web](https://org013-disk.oblako.gcs.ru/s/H4Cnb7NNnqRxPY9)",
-      "[NCC_Liflet_КОБ_2024_05](https://org013-disk.oblako.gcs.ru/s/RK2FWB66zwnc9SJ)",
-      "[NCC_Liflet_ASUTP_05_2024](https://org013-disk.oblako.gcs.ru/s/EDt7StPtrDg7pgn)",
-      "[NCC_Liflet_АТЗ_2024_22_07](https://org013-disk.oblako.gcs.ru/s/XBxwFY2GE9PTn8Z)",
-      "[NCC_Liflet_HeadPoint_05_2024](https://org013-disk.oblako.gcs.ru/s/3rJ5XcXoTDNJL6P)",
-      "[NCC_Liflet_HeadPoint_SKUHO_05_2024](https://org013-disk.oblako.gcs.ru/s/M26xqbkkQQfTKod)",
-      "[NCC_Liflet_Triafly_05_2024](https://org013-disk.oblako.gcs.ru/s/FEL9CtBmLRpdZrY)",
-      "[NCC_metodichka_KOB_05 2024](https://org013-disk.oblako.gcs.ru/s/fpcc9QQQQSwAZKQ)"
+      "[НКК Буклет ДКСБ 2024_24.06_web](https://org013-disk.oblako.gcs.ru/s/H4Cnb7NNnqRxPY9)",
+      "[Лифлет_КОБ_2024_05](https://org013-disk.oblako.gcs.ru/s/RK2FWB66zwnc9SJ)",
+      "[Лифлет_АСУТП_05_2024](https://org013-disk.oblako.gcs.ru/s/EDt7StPtrDg7pgn)",
+      "[Лифлет_АТЗ_2024_22_07](https://org013-disk.oblako.gcs.ru/s/XBxwFY2GE9PTn8Z)",
+      "[Лифлет_HeadPoint_05_2024](https://org013-disk.oblako.gcs.ru/s/3rJ5XcXoTDNJL6P)",
+      "[Лифлет_HeadPoint_SKUHO_05_2024](https://org013-disk.oblako.gcs.ru/s/M26xqbkkQQfTKod)",
+      "[Лифлет_Triafly_05_2024](https://org013-disk.oblako.gcs.ru/s/FEL9CtBmLRpdZrY)",
+      "[Методичка_KOB_05 2024](https://org013-disk.oblako.gcs.ru/s/fpcc9QQQQSwAZKQ)"
     ],
     "logo": [
       "[Логотип без надписи.svg](https://org013-disk.oblako.gcs.ru/s/W4B6bCKes3kKxwt)",
@@ -25,7 +25,7 @@
     ],
     "blanks": [
       "[Бланк НКК_23](https://org013-disk.oblako.gcs.ru/s/YeMKLNaaEgDX6sZ)",
-      "[NCC_letter_eng_23](https://org013-disk.oblako.gcs.ru/s/BPRDE8EdoqdGALe)"
+      "[Письмо_eng_23](https://org013-disk.oblako.gcs.ru/s/BPRDE8EdoqdGALe)"
     ],
     "profiles": [
       "[НКК_Профайл_ОБЩИЙ.pdf](https://org013-disk.oblako.gcs.ru/s/2L6qLG7eq88Xq2o)",
@@ -36,18 +36,18 @@
     "presentations": [
       "[НКК_шаблон_2024_05](https://org013-disk.oblako.gcs.ru/s/GPF6J7Fm5kWSf8i)",
       "[НКК_шаблон_2024_05_EN.pptx](https://org013-disk.oblako.gcs.ru/s/5JCcPjfmaZ3sw7i)",
-      "[НКК Optimining_05_23.pdf](https://org013-disk.oblako.gcs.ru/s/YJXqyS3egdLTY6T)",
+      "[Optimining_05_23.pdf](https://org013-disk.oblako.gcs.ru/s/YJXqyS3egdLTY6T)",
       "[Антидрон_РТК.pdf](https://org013-disk.oblako.gcs.ru/s/J7ASdkQXS4mJZyR)",
-      "[НКК (ITSM ProcessMining Monitoring) 07_2024](https://org013-disk.oblako.gcs.ru/s/gej84EC2KG3bgPM)",
-      "[НКК Автоматизация ITSM И ESM процессов_07_2024](https://org013-disk.oblako.gcs.ru/s/op78nK8MKq8HEG2)",
-      "[НКК Optimining с анимацией_07_2024](https://org013-disk.oblako.gcs.ru/s/Krd5mAgkQWXN6N4)",
-      "[НКК Optimining_07_2024](https://org013-disk.oblako.gcs.ru/s/pkytHQHoayaPxqq)",
-      "[НКК_Антидрон_РТК_07_2024](https://org013-disk.oblako.gcs.ru/s/SF3pRFjwzAwp7ga)",
-      "[НКК_ДКСБ_комплексная безопасность_08_2024](https://org013-disk.oblako.gcs.ru/s/25NwcQYNRxSkDLf)",
-      "[НКК_модуль serviceBus_08_2024](https://org013-disk.oblako.gcs.ru/s/6KPtYaSDkxtnd4F)",
-      "[НКК_НСИ_08_2024](https://org013-disk.oblako.gcs.ru/s/M34XfrKp8MLHkwg)",
-      "[НКК_КОБ_ENG_08_2024.pptx](https://org013-disk.oblako.gcs.ru/s/sYz7LmsFNNmSPW3)",
-      "[НКК_КОБ_08_2024.pptx](https://org013-disk.oblako.gcs.ru/s/HW48cxp8ExdK5PZ)",
+      "[ITSM ProcessMining Monitoring 07_2024](https://org013-disk.oblako.gcs.ru/s/gej84EC2KG3bgPM)",
+      "[Автоматизация ITSM И ESM процессов_07_2024](https://org013-disk.oblako.gcs.ru/s/op78nK8MKq8HEG2)",
+      "[Optimining с анимацией_07_2024](https://org013-disk.oblako.gcs.ru/s/Krd5mAgkQWXN6N4)",
+      "[Optimining_07_2024](https://org013-disk.oblako.gcs.ru/s/pkytHQHoayaPxqq)",
+      "[Антидрон_РТК_07_2024](https://org013-disk.oblako.gcs.ru/s/SF3pRFjwzAwp7ga)",
+      "[ДКСБ_комплексная безопасность_08_2024](https://org013-disk.oblako.gcs.ru/s/25NwcQYNRxSkDLf)",
+      "[модуль serviceBus_08_2024](https://org013-disk.oblako.gcs.ru/s/6KPtYaSDkxtnd4F)",
+      "[НСИ_08_2024](https://org013-disk.oblako.gcs.ru/s/M34XfrKp8MLHkwg)",
+      "[КОБ_ENG_08_2024.pptx](https://org013-disk.oblako.gcs.ru/s/sYz7LmsFNNmSPW3)",
+      "[КОБ_08_2024.pptx](https://org013-disk.oblako.gcs.ru/s/HW48cxp8ExdK5PZ)",
       "[Решения БанкСферы](https://org013-disk.oblako.gcs.ru/s/omPafec3KTsqaoK)"
     ]
   }
